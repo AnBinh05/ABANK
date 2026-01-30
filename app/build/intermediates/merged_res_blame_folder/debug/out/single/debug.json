@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.banknotification.reader.app-merged_res-31:/drawable_ic_launcher.xml.flat",
+        "source": "com.banknotification.reader.app-main-33:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.5\\com.banknotification.reader.app-merged_res-31:\\drawable_status_background.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.5\\com.banknotification.reader.app-main-33:\\drawable\\status_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.5\\com.banknotification.reader.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.5\\com.banknotification.reader.app-main-33:\\layout\\activity_main.xml"
+    }
+]

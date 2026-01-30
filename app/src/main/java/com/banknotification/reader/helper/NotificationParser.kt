@@ -8,6 +8,8 @@ import android.util.Log
  */
 object NotificationParser {
 
+    private const val TAG = "NotificationParser"
+
     /**
      * Extract số tiền từ text
      * Hỗ trợ các định dạng:
@@ -74,10 +76,6 @@ object NotificationParser {
             Log.e(TAG, "Lỗi khi parse số tiền: ${e.message}")
             return 0L
         }
-    }
-
-    companion object {
-        private const val TAG = "NotificationParser"
     }
 }
 
