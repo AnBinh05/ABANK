@@ -20,6 +20,39 @@ android {
         multiDexEnabled false
     }
 
+    // Cấu hình signing - Đảm bảo debug và release dùng CÙNG key để tránh xung đột
+    // QUAN TRỌNG: Debug và release phải dùng CÙNG signing key để có thể update app
+    signingConfigs {
+        debug {
+            // Debug dùng debug keystore mặc định
+            storeFile file(System.getProperty("user.home") + "/.android/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+        release {
+            // Release dùng CÙNG key với debug để tránh xung đột
+            // Nếu muốn dùng keystore riêng cho production, tạo file keystore.properties
+            if (file('keystore.properties').exists()) {
+                def keystorePropertiesFile = rootProject.file("keystore.properties")
+                def keystoreProperties = new Properties()
+                keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+                
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            } else {
+                // Dùng CÙNG key với debug (tránh xung đột khi update app)
+                // Điều này cho phép update từ debug sang release mà không cần gỡ app cũ
+                storeFile file(System.getProperty("user.home") + "/.android/debug.keystore")
+                storePassword "android"
+                keyAlias "androiddebugkey"
+                keyPassword "android"
+            }
+        }
+    }
+
     buildTypes {
         debug {
             // Đảm bảo debug APK có thể cài đặt được
@@ -34,7 +67,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             // Đảm bảo APK release có thể cài trên thiết bị thật
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
     
