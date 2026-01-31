@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.banknotification.reader"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:installLocation="auto"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -17,6 +18,7 @@
     <!-- Quyền internet (nếu cần) -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Permission cho dynamic receiver -->
     <permission
         android:name="com.banknotification.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,12 +29,14 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:extractNativeLibs="false"
+        android:enabled="true"
+        android:extractNativeLibs="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BankNotificationReader" >
+        android:theme="@style/Theme.BankNotificationReader"
+        android:usesCleartextTraffic="true" >
 
         <!-- MainActivity -->
         <activity

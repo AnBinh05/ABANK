@@ -1,7 +1,4 @@
-#Sat Jan 31 11:06:27 ICT 2026
-base.0=D\:\\ABANK\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=D\:\\ABANK\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+#Sat Jan 31 14:09:08 ICT 2026
+base.0=D\:\\ABANK\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
 path.0=classes.dex
-path.1=0/classes.dex
 renamed.0=classes.dex
-renamed.1=classes2.dex
