@@ -1,0 +1,3 @@
+com.banknotification.reader.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -35,3 +35,5 @@ Bây giờ bạn có thể mở app trên điện thoại và cấp quyền Noti
 
 **Xem thêm**: [HUONG_DAN_BUILD_APK.md](HUONG_DAN_BUILD_APK.md) để biết cách build APK Release đã ký.
 
+
+

@@ -17,3 +17,5 @@ rootProject.name = "BankNotificationReader"
 include ':app'
 
 
+
+

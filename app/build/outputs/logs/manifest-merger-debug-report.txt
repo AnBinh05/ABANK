@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\DELL\.gradle\caches\transforms-3\4a62cb928978837df06312d17288046f\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\3a9c143dc806935c0544adcf7cccee2c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\82b31cb9f6aab621092c2b9d69fc8c15\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -46,6 +46,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0323070632c44c8e550d00c36b985e69\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\173bedcad17bcf9d45f83561260edcc0\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:4:5-42
 		INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml
@@ -56,20 +57,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms
 	xmlns:android
 		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:6:5-93
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:7:5-93
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:6:22-90
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:7:22-90
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:9:5-77
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:10:5-77
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:9:22-74
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:10:22-74
 uses-permission#android.permission.INTERNET
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:13:22-64
 application
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:14:5-44:19
-INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:14:5-44:19
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:15:5-45:19
+INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml:15:5-45:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\DELL\.gradle\caches\transforms-3\4a62cb928978837df06312d17288046f\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\DELL\.gradle\caches\transforms-3\4a62cb928978837df06312d17288046f\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\3a9c143dc806935c0544adcf7cccee2c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -91,51 +92,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\DELL\.gradle\caches\transforms-3\4dde0fce54f6341b6da19770f76a2130\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:18:9-50
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:19:9-50
 	tools:targetApi
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:21:9-29
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:22:9-29
 	android:icon
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:16:9-45
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:17:9-45
 	android:allowBackup
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:20:9-60
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:21:9-60
 activity#com.banknotification.reader.MainActivity
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:27:13-36
 	android:theme
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:27:13-64
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:28:13-64
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:26:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:29:13-32:29
 action#android.intent.action.MAIN
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:31:27-74
 service#com.banknotification.reader.service.BankNotificationListenerService
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:35:9-42:19
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:36:9-43:19
 	android:exported
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:38:13-37
 	android:permission
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:38:13-87
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:39:13-87
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:36:13-68
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:37:13-68
 intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:39:13-41:29
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:40:13-42:29
 action#android.service.notification.NotificationListenerService
-ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:40:17-99
+ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:41:17-99
 	android:name
-		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:40:25-96
+		ADDED from D:\ABANK\app\src\main\AndroidManifest.xml:41:25-96
 uses-sdk
 INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ABANK\app\src\main\AndroidManifest.xml

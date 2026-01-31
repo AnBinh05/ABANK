@@ -18,6 +18,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            // Đảm bảo debug APK có thể cài đặt được
+            debuggable true
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

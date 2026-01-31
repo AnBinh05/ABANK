@@ -1,0 +1,6 @@
+com.banknotification.reader.test.app-annotation-experimental-1.3.0-0 C:\Users\DELL\.gradle\caches\transforms-3\8ef1b8ff2858effc16228738e0cf3094\transformed\annotation-experimental-1.3.0\res
+com.banknotification.reader.test.app-core-1.5.0-1 C:\Users\DELL\.gradle\caches\transforms-3\f3459a58503d1fddb5db3040482f0664\transformed\core-1.5.0\res
+com.banknotification.reader.test.app-androidTest-2 D:\ABANK\app\build\generated\res\resValues\androidTest\debug
+com.banknotification.reader.test.app-mergeDebugAndroidTestResources-3 D:\ABANK\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.banknotification.reader.test.app-mergeDebugAndroidTestResources-4 D:\ABANK\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.banknotification.reader.test.app-merged_res-5 D:\ABANK\app\build\intermediates\merged_res\debugAndroidTest
